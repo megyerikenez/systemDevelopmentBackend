@@ -21,3 +21,10 @@
 ### 5. Let's see if it works.
             Open your browser and navigate to localhost
             You should see something like this : ["Blog post #0","Blog post #1","Blog post #2","Blog post #3","Blog post #4"]
+
+### 6. How to Stop and Start the Enviroment
+            If you had enough coding for the day just go to the project folder and use "docker compose stop".
+            If you had enough coffee to comeback for a code session use "docker compose start".
+
+### HELP
+	    Don't use "docker compose down". It will remove the docker context which means its a fucking nuke :) You will lose every data in cache and in the database.
