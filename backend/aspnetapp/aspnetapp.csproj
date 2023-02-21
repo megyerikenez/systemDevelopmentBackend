@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="6.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MySqlConnector" Version="2.1.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fitness.Backend.Application.Contracts\Fitness.Backend.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Fitness.Backend.Application.DataContracts\Fitness.Backend.Application.DataContracts.csproj" />
+    <ProjectReference Include="..\Fitness.Backend.Application\Fitness.Backend.Application.csproj" />
+    <ProjectReference Include="..\Fitness.Backend.Repositories\Fitness.Backend.Repositories.csproj" />
+    <ProjectReference Include="..\Fitness.Backend.Services\Fitness.Backend.Services.csproj" />
+  </ItemGroup>
+</Project>

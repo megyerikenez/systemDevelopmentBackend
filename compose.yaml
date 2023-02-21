@@ -1,7 +1,7 @@
 services:
   backend:
     build:
-      context: backend
+      context: backend/aspnetapp
     restart: always
     secrets:
       - db-password
@@ -34,7 +34,7 @@ services:
   proxy:
     build: proxy
     ports:
-      - 80:80
+      - 90:80
     depends_on: 
       - backend
 

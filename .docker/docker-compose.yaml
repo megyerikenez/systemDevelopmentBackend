@@ -1,7 +1,7 @@
 services:
   backend:
     build:
-      context: backend
+      context: backend/aspnetapp
       target: dev-envs
     restart: always
     secrets:
