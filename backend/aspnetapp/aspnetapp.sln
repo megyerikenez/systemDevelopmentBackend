@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationLayer", "Applica
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{D7848DEA-2AAE-44E4-86C4-559F074F554E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Backend.Application", "..\Fitness.Backend.Application\Fitness.Backend.Application.csproj", "{CCD61A52-6870-43C5-8C76-C75D5EFB27D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Backend.Application", "Fitness.Backend.Application\Fitness.Backend.Application.csproj", "{CCD61A52-6870-43C5-8C76-C75D5EFB27D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Backend.Application.Contracts", "..\Fitness.Backend.Application.Contracts\Fitness.Backend.Application.Contracts.csproj", "{25BD34D7-BA92-41FF-8E27-6990D60A5DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Backend.Application.Contracts", "Fitness.Backend.Application.Contracts\Fitness.Backend.Application.Contracts.csproj", "{25BD34D7-BA92-41FF-8E27-6990D60A5DF7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Backend.Application.DataContracts", "..\Fitness.Backend.Application.DataContracts\Fitness.Backend.Application.DataContracts.csproj", "{6738F222-06A7-4DBC-A0E5-47096B9744CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Backend.Application.DataContracts", "Fitness.Backend.Application.DataContracts\Fitness.Backend.Application.DataContracts.csproj", "{6738F222-06A7-4DBC-A0E5-47096B9744CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Backend.Repositories", "..\Fitness.Backend.Repositories\Fitness.Backend.Repositories.csproj", "{1C7B1B0C-874F-4CE9-97AB-B6E7061112DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Backend.Repositories", "Fitness.Backend.Repositories\Fitness.Backend.Repositories.csproj", "{1C7B1B0C-874F-4CE9-97AB-B6E7061112DE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Backend.Services", "..\Fitness.Backend.Services\Fitness.Backend.Services.csproj", "{3CDDD731-BAD2-4E2E-86A1-89BEE73D432F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Backend.Services", "Fitness.Backend.Services\Fitness.Backend.Services.csproj", "{3CDDD731-BAD2-4E2E-86A1-89BEE73D432F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{4B56A009-5096-4CF1-9E13-79CDD3E36FBB}"
 EndProject

@@ -20,10 +20,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Fitness.Backend.Application.Contracts\Fitness.Backend.Application.Contracts.csproj" />
-    <ProjectReference Include="..\Fitness.Backend.Application.DataContracts\Fitness.Backend.Application.DataContracts.csproj" />
-    <ProjectReference Include="..\Fitness.Backend.Application\Fitness.Backend.Application.csproj" />
-    <ProjectReference Include="..\Fitness.Backend.Repositories\Fitness.Backend.Repositories.csproj" />
-    <ProjectReference Include="..\Fitness.Backend.Services\Fitness.Backend.Services.csproj" />
+    <ProjectReference Include="Fitness.Backend.Application.Contracts\Fitness.Backend.Application.Contracts.csproj" />
+    <ProjectReference Include="Fitness.Backend.Application.DataContracts\Fitness.Backend.Application.DataContracts.csproj" />
+    <ProjectReference Include="Fitness.Backend.Application\Fitness.Backend.Application.csproj" />
+    <ProjectReference Include="Fitness.Backend.Repositories\Fitness.Backend.Repositories.csproj" />
+    <ProjectReference Include="Fitness.Backend.Services\Fitness.Backend.Services.csproj" />
   </ItemGroup>
 </Project>

@@ -9,5 +9,6 @@ namespace Fitness.Backend.Application.BusinessLogic
 {
     public class AdminBl : IAdminBl
     {
+        //asdasdad
     }
 }
